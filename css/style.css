@@ -433,23 +433,27 @@ figure {
 .wheel2,
 .wheel3 {
     position: absolute;
-    top: 45px;
-    left: 23px;
+    top: 40px;
+    left: 10px;
 }
 
 .a-wheel {
     position: absolute;
     display: block;
+/*
     width: 137px;
     height: 127;
     background: #ffffff;
+*/
     border: 1px solid #b1b7ba;
     border-radius: 8px;
 }
 
 .img-wheel1 {
-    padding: 5px 0 0 29px;
+/*    padding: -5px 0 0 40px;*/
     position: absolute;
+    margin-left: 14px;
+    margin-top: 2px;
 }
 
 .p1 {
@@ -457,8 +461,8 @@ figure {
     font-size: 16px;
     color: #426986;
     position: absolute;
-    top: -35px;
-    left: 36px;
+    top: -30px;
+    left: 46px;
 }
 
 .p2 {
@@ -466,8 +470,8 @@ figure {
     font-size: 13px;
     color: black;
     position: absolute;
-    top: -20px;
-    left: 14px;
+    top: -15px;
+    left: 27px;
 }
 
 .p3 {
@@ -477,8 +481,8 @@ figure {
     font-size: 18px;
     color: #2a4364;
     position: absolute;
-    top: 128px;
-    left: 39px;
+    top: 133px;
+    left: 50px;
 }
 
 .p11 {
@@ -486,8 +490,8 @@ figure {
     font-size: 16px;
     color: #426986;
     position: absolute;
-    top: -35px;
-    left: 43px;
+    top: -30px;
+    left: 57px;
 }
 
 .p12 {
@@ -495,8 +499,8 @@ figure {
     font-size: 13px;
     color: black;
     position: absolute;
-    top: -20px;
-    left: 21px;
+    top: -15px;
+    left: 37px;
 }
 
 .p13 {
@@ -506,8 +510,8 @@ figure {
     font-size: 18px;
     color: #2a4364;
     position: absolute;
-    top: 128px;
-    left: 34px;
+    top: 133px;
+    left: 47px;
 }
 
 .p22 {
@@ -515,8 +519,8 @@ figure {
     font-size: 13px;
     color: black;
     position: absolute;
-    top: -20px;
-    left: 9px;
+    top: -15px;
+    left: 22px;
 }
 
 .p23 {
@@ -526,8 +530,8 @@ figure {
     font-size: 18px;
     color: #2a4364;
     position: absolute;
-    top: 128px;
-    left: 32px;
+    top: 133px;
+    left: 47px;
 }
 
 .grn {
@@ -535,12 +539,15 @@ figure {
 }
 
 .img-wheel2 {
-    padding: 5px 0 0 34px;
+    margin-left: 12px;
+    
     position: absolute;
+    margin-top: 2px;
 }
 
 .img-wheel3 {
-    padding: 5px 0 0 27px;
+     margin-left: 12px;
+    margin-top: 2px;
     position: absolute;
 }
 /*      правая форма*/
