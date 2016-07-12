@@ -39,6 +39,7 @@ header {
 .tel {
     position: relative;
     top: 4px;
+    left:0px;
 }
 
 form {
@@ -107,11 +108,11 @@ form {
 }
 
 .t2 {
-    left: 304px;
+    left: 306px;
 }
 
 .t3 {
-    left: 392px;
+    left: 391px;
     letter-spacing: 0.8px;
 }
 
@@ -222,14 +223,14 @@ nav {
     font-family: arial;
     font-size: 11px;
     position: relative;
-    top: -13px;
+    top: -12px;
 }
 
 .number1 {
     position: absolute;
     color: #0d5a8f;
     font-size: 12px;
-    left: 98px;
+    left: 100px;
 }
 
 .basket {
@@ -239,19 +240,19 @@ nav {
 
 .text11 {
     position: absolute;
-    left: 50px;
+    left: 52px;
 }
 
 .text22 {
     position: absolute;
-    left: 117px;
+    left: 120px;
 }
 
 .number2 {
     position: absolute;
     color: #0d5a8f;
     font-size: 12px;
-    left: 175px;
+    left: 177px;
 }
 /*--------пропущенные блоки*/
 section {
@@ -325,7 +326,7 @@ section {
     font-size: 13px;
     color: #114165;
     position: relative;
-    margin-top: 5px;
+    margin-top: 4px;
     height: 25px;
     border-radius: 15px;
     border: 1px solid #9c9c9d;
@@ -358,7 +359,7 @@ section {
 }
 
 .disk {
-    margin-top: -5px;
+    margin-top: -4px;
 }
 
 .bolt {
@@ -462,7 +463,7 @@ figure {
     color: #426986;
     position: absolute;
     top: -30px;
-    left: 46px;
+    left: 49px;
 }
 
 .p2 {
@@ -471,7 +472,7 @@ figure {
     color: black;
     position: absolute;
     top: -15px;
-    left: 27px;
+    left: 29px;
 }
 
 .p3 {
@@ -482,7 +483,7 @@ figure {
     color: #2a4364;
     position: absolute;
     top: 133px;
-    left: 50px;
+    left: 51px;
 }
 
 .p11 {
@@ -491,7 +492,7 @@ figure {
     color: #426986;
     position: absolute;
     top: -30px;
-    left: 57px;
+    left: 58px;
 }
 
 .p12 {
@@ -511,7 +512,7 @@ figure {
     color: #2a4364;
     position: absolute;
     top: 133px;
-    left: 47px;
+    left: 46px;
 }
 
 .p22 {
@@ -531,7 +532,7 @@ figure {
     color: #2a4364;
     position: absolute;
     top: 133px;
-    left: 47px;
+    left: 44px;
 }
 
 .grn {
@@ -559,23 +560,25 @@ figure {
 }
 
 .brand {
-    margin-left: 10px;
+    margin-left: 12px;
     margin-top: -1px;
-    width: 183px;
+    width: 180px;
 }
 
 .text-brand {
-    padding-left: 7px;
+    padding-left: 6px;
+    padding-top: 2px;
 }
 
 .bus2 {
     margin-left: 23px;
-    margin-top: 15px;
+    margin-top: 16px;
     width: 139px;
 }
 
 .text-bus2 {
-    padding-left: 2
+    padding-left: 2px;
+    padding-top: 2px;
 }
 
 
@@ -589,11 +592,12 @@ input[type="checkbox"]+label span {
     display: inline-block;
     width: 12px;
     height: 12px;
-    margin: -1px 4px 0 0;
+    margin: -1px 7px 0 0;
     vertical-align: middle;
     background: url(../img/check.png);
     cursor: pointer;
     color: red;
+    
 }
 
 input[type="checkbox"]:checked+label span {
@@ -602,22 +606,26 @@ input[type="checkbox"]:checked+label span {
 
 .lab {
     font-family: "Lucida Sans Unicode";
-    font-size: 13px;
+    font-size: 14px;
     color: #465961;
+    margin-left: 1px;
+   
+    
 }
 
 .chbox {
     margin-left: 37px;
-    margin-top: 4px;
+    margin-top: 5px;
 }
 
 .disk2 {
-    margin: 10px 0 0 20px;
+    margin: 10px 0 0 21px;
     width: 139px;
 }
 
 .text-disk2 {
     padding-left: 4px;
+    padding-top: 1px;
 }
 
 .butt {
@@ -639,10 +647,12 @@ input[type="checkbox"]:checked+label span {
     font-family: Arial;
     font-size: 11px;
     box-shadow: 1.5px 2px 4px 0px rgb( 155, 155, 155);
-    margin-top: 20px;
-    margin-left: 33px;
+    margin-top: 15px;
+    margin-left: 34px;
 }
-
+.menu3{
+    margin-left: 6px;
+}
 .logo {
     display: block;
     padding-top: 30px;
@@ -662,6 +672,7 @@ input[type="checkbox"]:checked+label span {
 .menu3 li {
     list-style: none;
     display: inline-block;
+    margin-top: 4px;
 }
 
 .menu3 a {
@@ -678,7 +689,7 @@ input[type="checkbox"]:checked+label span {
 }
 
 .p4 {
-    padding-top: 10px;
+    padding-top: 12px;
     text-align: center;
     color: #754542;
     font-family: Arial;
