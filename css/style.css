@@ -1,0 +1,679 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: block;
+}
+
+.contact {
+    margin: 0 auto;
+    display: block;
+    height: 30px;
+    width: 905px;
+    font-family: arial, serif;
+    font-size: 19px;
+    color: #5e696d;
+    padding-top: 16px;
+}
+
+.contact-ul {
+    position: relative;
+    overflow: hidden;
+    left: 5px;
+}
+
+.contact-ul li {
+    float: left;
+    list-style: none;
+    line-height: 30px;
+    display: block;
+}
+
+.imgtel {
+    padding-top: 7px;
+    box-sizing: border-box;
+}
+
+.tel {
+    position: relative;
+    top: 4px;
+}
+
+form {
+    position: relative;
+    top: 3px;
+    margin-left: 14px;
+    width: 491px;
+    height: 25px;
+    border-radius: 5px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1f6685+0,207cca+1,207cca+2,0d365a+100 */
+    background: #1f6685;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #1f6685 0%, #207cca 1%, #207cca 2%, #0d365a 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #1f6685 0%, #207cca 1%, #207cca 2%, #0d365a 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #1f6685 0%, #207cca 1%, #207cca 2%, #0d365a 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#1f6685', endColorstr='#0d365a', GradientType=0);
+    /* IE6-9 */
+    border-top: 1px solid #a6c3cf;
+    -webkit-box-shadow: 3px 2px 3px -1px rgba(185, 185, 185, 1);
+    -moz-box-shadow: 3px 2px 3px -1px rgba(185, 185, 185, 1);
+    box-shadow: 3px 2px 3px -1px rgba(185, 185, 185, 1);
+}
+
+.log1,
+.log2 {
+    width: 112px;
+    height: 15px;
+    position: absolute;
+    top: 4px;
+    font-family: arial, serif;
+    font-size: 12px;
+    border: 1px solid #b3b7b9;
+}
+
+.avtor {
+    position: absolute;
+    left: 5px;
+    top: 4px;
+}
+
+.log1 {
+    left: 22px;
+}
+
+.log2 {
+    left: 143px;
+}
+
+.t1,
+.t2,
+.t3 {
+    font-family: arial, serif;
+    font-size: 11px;
+    color: white;
+    position: absolute;
+    top: -2px;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.t1 {
+    left: 268px;
+}
+
+.t2 {
+    left: 304px;
+}
+
+.t3 {
+    left: 392px;
+    letter-spacing: 0.8px;
+}
+
+form a:hover .st {
+    text-decoration: underline;
+    color: #bfbfbf;
+}
+
+.icon {
+    position: relative;
+    display: block;
+    width: 76px;
+    height: 20px;
+    border: 1px solid #c1c8cb;
+    border-radius: 15px;
+    opacity: 0.3;
+    left: 20px;
+    top: 5px;
+}
+
+.icon1,
+.icon2,
+.icon3 {
+    position: absolute;
+    top: -7px;
+}
+
+.icon1 {
+    left: 10px;
+}
+
+.icon2 {
+    left: 30px;
+}
+
+.icon3 {
+    left: 52px;
+}
+
+.foto {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+
+/***********меню главное*********************/
+
+nav {
+    display: block;
+}
+
+#menu1 {
+    margin: 0 auto;
+    display: block;
+    height: 35px;
+    width: 910px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb( 13, 22, 66);
+    border-radius: 4px;
+    background: #505860;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #505860 0%, #020202 32%, #020202 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #505860 0%, #020202 32%, #020202 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #505860 0%, #020202 32%, #020202 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#505860', endColorstr='#020202', GradientType=0);
+    /* IE6-9 */
+    box-shadow: 1.5px 2px 4px 0px rgb( 55, 55, 55);
+    font-size: 13px;
+    padding-left: 136px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#menu1 li {
+    display: inline-block;
+}
+
+#menu1 a {
+    font-family: "Lucida Sans Unicode";
+    line-height: 30px;
+    padding: 0px 13px;
+    color: #b1bcc0;
+    margin-right: 2px;
+    text-decoration: none;
+}
+
+#menu1 a:hover {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: #25617b;
+    background: -moz-linear-gradient(top, #25617b 0%, #0d365a 100%, #0d365a 100%);
+    background: -webkit-linear-gradient(top, #25617b 0%, #0d365a 100%, #0d365a 100%);
+    background: linear-gradient(to bottom, #25617b 0%, #0d365a 100%, #0d365a 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#25617b', endColorstr='#0d365a', GradientType=0);
+    color: white;
+    border-radius: 15px;
+}
+
+.text1,
+.text2 {
+    color: #b1bcc0;
+    font-family: arial;
+    font-size: 11px;
+    position: relative;
+    top: -13px;
+}
+
+.number1 {
+    position: absolute;
+    color: #0d5a8f;
+    font-size: 12px;
+    left: 98px;
+}
+
+.basket {
+    position: absolute;
+    left: 23px;
+}
+
+.text11 {
+    position: absolute;
+    left: 50px;
+}
+
+.text22 {
+    position: absolute;
+    left: 117px;
+}
+
+.number2 {
+    position: absolute;
+    color: #0d5a8f;
+    font-size: 12px;
+    left: 175px;
+}
+/*--------пропущенные блоки*/
+section {
+    margin: 0 auto;
+    display: block;
+    width: 910px;
+    height: 135px;
+    margin-bottom: 15px;
+    font-size: 0;
+}
+
+.box1 {
+    margin-left: 4px;
+    float: left;
+    color: crimson;
+    width: 413px;
+    height: 100%;
+    border: 1px solid #9c9c9d;
+    border-radius: 15px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 130px;
+    box-shadow: 1.5px 3px 5px 0px rgb( 155, 155, 155);
+}
+
+.box2 {
+    float: left;
+    height: 100%;
+    width: 192px;
+    color: crimson;
+    border: 1px solid #9c9c9d;
+    border-radius: 15px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 130px;
+    box-shadow: 1.5px 3px 5px 0px rgb( 155, 155, 155);
+    margin-left: 16px;
+}
+
+.box3 {
+    margin-left: 9px;
+    height: 100%;
+    width: 266px;
+    float: left;
+    color: crimson;
+    border: 1px solid #9c9c9d;
+    border-radius: 15px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 130px;
+    box-shadow: 1.5px 3px 5px 0px rgb( 155, 155, 155);
+}
+/*------------основная часть-*/
+.container {
+    margin: 0 auto;
+    width: 910px;
+}
+/*       левый сайтбар*/
+.aside-left {
+    float: left;
+    display: block;
+    width: 180px;
+    height: 635px;
+}
+
+.catalog,
+.bus,
+.disk,
+.bolt {
+    font-family: "Lucida Sans Unicode";
+    font-size: 13px;
+    color: #114165;
+    position: relative;
+    margin-top: 5px;
+    height: 25px;
+    border-radius: 15px;
+    border: 1px solid #9c9c9d;
+}
+
+.catalog {
+    width: 100%;
+    box-shadow: 1.5px 3px 5px 0px rgb( 155, 155, 155);
+    background: url(../img/catalog.png) no-repeat 2px 2px;
+}
+
+.text-catalog {
+    position: absolute;
+    margin: 2px 0 0 25px;
+}
+
+.bus,
+.disk,
+.bolt {
+    margin-top: 13px;
+    width: 150px;
+    background: url(../img/bus.png) no-repeat 4px 1px;
+}
+
+.text-bus,
+.text-disk,
+.text-bolt {
+    position: absolute;
+    margin: 2px 0 0 32px;
+}
+
+.disk {
+    margin-top: -5px;
+}
+
+.bolt {
+    margin-top: -4px;
+}
+
+.menu1 {
+    margin-top: 4px;
+    list-style: none;
+    padding-left: 39px;
+}
+
+.menu1 li {
+    background: url(../img/marker1.png) no-repeat 0px 5px;
+    padding-left: 10px;
+}
+
+.menu1 a {
+    display: block;
+    height: 25px;
+    text-decoration: none;
+    font-family: "Lucida Sans Unicode";
+    font-size: 13px;
+    color: #114165;
+}
+
+.menu1 a:hover {
+    text-decoration: underline;
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.menu1 li:hover {
+    background: url(../img/marker2.png) no-repeat 0px 5px;
+    padding-left: 10px;
+}
+/* ------основная страница центр*/
+main {
+    float: left;
+    display: block;
+    width: 527px;
+    height: 627px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5e6e7+0,9ca7b0+100 */
+    background: #e5e6e7;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #e5e6e7 0%, #9ca7b0 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e5e6e7 0%, #9ca7b0 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e5e6e7 0%, #9ca7b0 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e5e6e7', endColorstr='#9ca7b0', GradientType=0);
+    /* IE6-9 */
+    border: 0;
+    border-radius: 2px;
+    margin-left: 10px;
+    position: relative;
+}
+
+figure {
+    display: block;
+    width: 170px;
+    height: 190px;
+    position: relative;
+    float: left;
+    margin-bottom: 12px;
+}
+
+.wheel1,
+.wheel2,
+.wheel3 {
+    position: absolute;
+    top: 45px;
+    left: 23px;
+}
+
+.a-wheel {
+    position: absolute;
+    display: block;
+    width: 137px;
+    height: 127;
+    background: #ffffff;
+    border: 1px solid #b1b7ba;
+    border-radius: 8px;
+}
+
+.img-wheel1 {
+    padding: 5px 0 0 29px;
+    position: absolute;
+}
+
+.p1 {
+    font-family: "Lucida Sans Unicode";
+    font-size: 16px;
+    color: #426986;
+    position: absolute;
+    top: -35px;
+    left: 36px;
+}
+
+.p2 {
+    font-family: "Lucida Sans Unicode";
+    font-size: 13px;
+    color: black;
+    position: absolute;
+    top: -20px;
+    left: 14px;
+}
+
+.p3 {
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Arial";
+    font-size: 18px;
+    color: #2a4364;
+    position: absolute;
+    top: 128px;
+    left: 39px;
+}
+
+.p11 {
+    font-family: "Lucida Sans Unicode";
+    font-size: 16px;
+    color: #426986;
+    position: absolute;
+    top: -35px;
+    left: 43px;
+}
+
+.p12 {
+    font-family: "Lucida Sans Unicode";
+    font-size: 13px;
+    color: black;
+    position: absolute;
+    top: -20px;
+    left: 21px;
+}
+
+.p13 {
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Arial";
+    font-size: 18px;
+    color: #2a4364;
+    position: absolute;
+    top: 128px;
+    left: 34px;
+}
+
+.p22 {
+    font-family: "Lucida Sans Unicode";
+    font-size: 13px;
+    color: black;
+    position: absolute;
+    top: -20px;
+    left: 9px;
+}
+
+.p23 {
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Arial";
+    font-size: 18px;
+    color: #2a4364;
+    position: absolute;
+    top: 128px;
+    left: 32px;
+}
+
+.grn {
+    font-size: 13px;
+}
+
+.img-wheel2 {
+    padding: 5px 0 0 34px;
+    position: absolute;
+}
+
+.img-wheel3 {
+    padding: 5px 0 0 27px;
+    position: absolute;
+}
+/*      правая форма*/
+.aside-right {
+    float: left;
+    display: block;
+    width: 185px;
+    height: 635px;
+}
+
+.brand {
+    margin-left: 10px;
+    margin-top: -1px;
+    width: 183px;
+}
+
+.text-brand {
+    padding-left: 7px;
+}
+
+.bus2 {
+    margin-left: 23px;
+    margin-top: 15px;
+    width: 139px;
+}
+
+.text-bus2 {
+    padding-left: 2
+}
+
+
+/*/************************/
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]+label span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    background: url(../img/check.png);
+    cursor: pointer;
+    color: red;
+}
+
+input[type="checkbox"]:checked+label span {
+    background: url(../img/check.png) -12px top no-repeat;
+}
+
+.lab {
+    font-family: "Lucida Sans Unicode";
+    font-size: 13px;
+    color: #465961;
+}
+
+.chbox {
+    margin-left: 37px;
+    margin-top: 4px;
+}
+
+.disk2 {
+    margin: 10px 0 0 20px;
+    width: 139px;
+}
+
+.text-disk2 {
+    padding-left: 4px;
+}
+
+.butt {
+    width: 80px;
+    height: 26px;
+    border-radius: 15px;
+    background: #1f6585;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #1f6585 0%, #0d365a 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #1f6585 0%, #0d365a 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #1f6585 0%, #0d365a 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#1f6585', endColorstr='#0d365a', GradientType=0);
+    /* IE6-9 */
+    color: #e5e9ea;
+    border: 0;
+    font-family: Arial;
+    font-size: 11px;
+    box-shadow: 1.5px 2px 4px 0px rgb( 155, 155, 155);
+    margin-top: 20px;
+    margin-left: 33px;
+}
+
+.logo {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 23px;
+    margin: 0 auto;
+}
+/* ----------футер*/
+.footer {
+    width: 910px;
+    height: 100px;
+    background: #213a4d;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.menu3 li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu3 a {
+    padding: 0 2px 0 2px;
+    text-decoration: none;
+    /* letter-spacing: 0.5;*/
+    color: #bec6c9;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.menu3 a:hover span {
+    color: #52abcb;
+}
+
+.p4 {
+    padding-top: 10px;
+    text-align: center;
+    color: #754542;
+    font-family: Arial;
+    font-size: 10px;
+}
