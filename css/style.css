@@ -15,13 +15,13 @@ header {
     font-family: arial, serif;
     font-size: 19px;
     color: #5e696d;
-    padding-top: 16px;
+    padding-top: 14px;
 }
 
 .contact-ul {
     position: relative;
     overflow: hidden;
-    left: 5px;
+    left:1px;
 }
 
 .contact-ul li {
@@ -34,19 +34,20 @@ header {
 .imgtel {
     padding-top: 7px;
     box-sizing: border-box;
+        padding-left: 3px;
 }
 
 .tel {
     position: relative;
     top: 4px;
-    left:0px;
+    left:-1px;
 }
 
 form {
     position: relative;
     top: 3px;
     margin-left: 14px;
-    width: 491px;
+    width: 495px;
     height: 25px;
     border-radius: 5px;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1f6685+0,207cca+1,207cca+2,0d365a+100 */
@@ -71,12 +72,34 @@ form {
     width: 112px;
     height: 15px;
     position: absolute;
-    top: 4px;
+    top: 3px;
     font-family: arial, serif;
     font-size: 12px;
     border: 1px solid #b3b7b9;
+    
 }
-
+.log3 {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    left: 259px;
+    top:5px;
+/*    float: right;*/
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px !important;
+    height: 13px;
+    text-align: center;
+    width: 40px;
+}
+.log-span {
+    color: #fff;
+    font-size: 11px;
+    position: absolute;
+     left: 295px;
+    top:-3px;
+}
 .avtor {
     position: absolute;
     left: 5px;
@@ -98,7 +121,7 @@ form {
     font-size: 11px;
     color: white;
     position: absolute;
-    top: -2px;
+    top: -3px;
     text-decoration: none;
     border-radius: 2px;
 }
@@ -108,7 +131,7 @@ form {
 }
 
 .t2 {
-    left: 306px;
+    left: 304px;
 }
 
 .t3 {
@@ -129,7 +152,7 @@ form a:hover .st {
     border: 1px solid #c1c8cb;
     border-radius: 15px;
     opacity: 0.3;
-    left: 20px;
+    left: 15px;
     top: 5px;
 }
 
@@ -155,8 +178,8 @@ form a:hover .st {
 .foto {
     display: block;
     margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom: 3px;
+    margin-top: 9px;
+    margin-bottom: 6px;
 }
 
 
@@ -186,7 +209,7 @@ nav {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#505860', endColorstr='#020202', GradientType=0);
     /* IE6-9 */
     box-shadow: 1.5px 2px 4px 0px rgb( 55, 55, 55);
-    font-size: 13px;
+    font-size: 14px;
     padding-left: 136px;
     box-sizing: border-box;
     margin-bottom: 10px;
@@ -194,17 +217,21 @@ nav {
 
 #menu1 li {
     display: inline-block;
+    padding-top: 1px;
 }
 
 #menu1 a {
     font-family: "Lucida Sans Unicode";
-    line-height: 30px;
-    padding: 0px 13px;
+    line-height: 34px;
+    padding: 0px 11px 0 0;
     color: #b1bcc0;
-    margin-right: 2px;
+    margin-right: 0px;
     text-decoration: none;
+    letter-spacing: -0.4px;
 }
-
+#menu1 a:first-child{
+    padding-left: 10px;
+}
 #menu1 a:hover {
     padding-top: 2px;
     padding-bottom: 2px;
@@ -230,29 +257,30 @@ nav {
     position: absolute;
     color: #0d5a8f;
     font-size: 12px;
-    left: 100px;
+    left: 108px;
 }
 
 .basket {
     position: absolute;
-    left: 23px;
+    left: 30px;
+    top:-2px;
 }
 
 .text11 {
     position: absolute;
-    left: 52px;
+    left: 58px;
 }
 
 .text22 {
     position: absolute;
-    left: 120px;
+    left: 126px;
 }
 
 .number2 {
     position: absolute;
     color: #0d5a8f;
     font-size: 12px;
-    left: 177px;
+    left: 184px;
 }
 /*--------пропущенные блоки*/
 section {
@@ -271,7 +299,7 @@ section {
     width: 413px;
     height: 100%;
     border: 1px solid #9c9c9d;
-    border-radius: 15px;
+    border-radius: 16px;
     font-size: 14px;
     text-align: center;
     line-height: 130px;
@@ -281,7 +309,7 @@ section {
 .box2 {
     float: left;
     height: 100%;
-    width: 192px;
+    width: 190px;
     color: crimson;
     border: 1px solid #9c9c9d;
     border-radius: 15px;
@@ -289,7 +317,7 @@ section {
     text-align: center;
     line-height: 130px;
     box-shadow: 1.5px 3px 5px 0px rgb( 155, 155, 155);
-    margin-left: 16px;
+    margin-left: 15px;
 }
 
 .box3 {
@@ -340,36 +368,42 @@ section {
 
 .text-catalog {
     position: absolute;
-    margin: 2px 0 0 25px;
+    margin: 3px 0 0 25px;
 }
 
 .bus,
 .disk,
 .bolt {
-    margin-top: 13px;
-    width: 150px;
+    margin-top: 14px;
+    width: 149px;
     background: url(../img/bus.png) no-repeat 4px 1px;
 }
 
-.text-bus,
-.text-disk,
-.text-bolt {
+.text-bus {
     position: absolute;
-    margin: 2px 0 0 32px;
+    margin: 5px 0 0 31px;
 }
 
+.text-bolt {
+    position: absolute;
+    margin: 3px 0 0 31px;
+}
+.text-disk{
+     position: absolute;
+    margin: 2px 0 0 31px; 
+}
 .disk {
-    margin-top: -4px;
+    margin-top: -5px;
 }
 
 .bolt {
-    margin-top: -4px;
+    margin-top: -7px;
 }
 
 .menu1 {
-    margin-top: 4px;
+    margin-top: 3px;
     list-style: none;
-    padding-left: 39px;
+    padding-left: 38px;
 }
 
 .menu1 li {
@@ -379,7 +413,7 @@ section {
 
 .menu1 a {
     display: block;
-    height: 25px;
+    height: 26px;
     text-decoration: none;
     font-family: "Lucida Sans Unicode";
     font-size: 13px;
@@ -403,7 +437,7 @@ main {
     float: left;
     display: block;
     width: 527px;
-    height: 627px;
+    height: 628px;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5e6e7+0,9ca7b0+100 */
     background: #e5e6e7;
     /* Old browsers */
@@ -453,8 +487,8 @@ figure {
 .img-wheel1 {
 /*    padding: -5px 0 0 40px;*/
     position: absolute;
-    margin-left: 14px;
-    margin-top: 2px;
+    margin-left: 13px;
+    margin-top: 3px;
 }
 
 .p1 {
@@ -462,8 +496,8 @@ figure {
     font-size: 16px;
     color: #426986;
     position: absolute;
-    top: -30px;
-    left: 49px;
+    top: -28px;
+    left: 47px;
 }
 
 .p2 {
@@ -471,8 +505,8 @@ figure {
     font-size: 13px;
     color: black;
     position: absolute;
-    top: -15px;
-    left: 29px;
+    top: -12px;
+    left: 28px;
 }
 
 .p3 {
@@ -482,8 +516,8 @@ figure {
     font-size: 18px;
     color: #2a4364;
     position: absolute;
-    top: 133px;
-    left: 51px;
+    top: 136px;
+    left: 50px;
 }
 
 .p11 {
@@ -491,8 +525,8 @@ figure {
     font-size: 16px;
     color: #426986;
     position: absolute;
-    top: -30px;
-    left: 58px;
+    top: -29px;
+    left: 56px;
 }
 
 .p12 {
@@ -500,8 +534,8 @@ figure {
     font-size: 13px;
     color: black;
     position: absolute;
-    top: -15px;
-    left: 37px;
+    top: -12px;
+    left: 35px;
 }
 
 .p13 {
@@ -511,8 +545,8 @@ figure {
     font-size: 18px;
     color: #2a4364;
     position: absolute;
-    top: 133px;
-    left: 46px;
+    top: 136px;
+    left: 44px;
 }
 
 .p22 {
@@ -520,8 +554,8 @@ figure {
     font-size: 13px;
     color: black;
     position: absolute;
-    top: -15px;
-    left: 22px;
+    top: -11px;
+    left: 20px;
 }
 
 .p23 {
@@ -531,8 +565,8 @@ figure {
     font-size: 18px;
     color: #2a4364;
     position: absolute;
-    top: 133px;
-    left: 44px;
+    top: 136px;
+    left: 42px;
 }
 
 .grn {
@@ -540,15 +574,15 @@ figure {
 }
 
 .img-wheel2 {
-    margin-left: 12px;
+    margin-left: 10px;
     
     position: absolute;
-    margin-top: 2px;
+    margin-top: 5px;
 }
 
 .img-wheel3 {
-     margin-left: 12px;
-    margin-top: 2px;
+        margin-left: 9px;
+    margin-top: 4px;
     position: absolute;
 }
 /*      правая форма*/
@@ -560,25 +594,26 @@ figure {
 }
 
 .brand {
-    margin-left: 12px;
-    margin-top: -1px;
+    margin-left: 10px;
+    margin-top: 2px;
     width: 180px;
 }
 
 .text-brand {
     padding-left: 6px;
-    padding-top: 2px;
+    padding-top: 1px;
 }
 
 .bus2 {
-    margin-left: 23px;
+    margin-left: 24px;
     margin-top: 16px;
-    width: 139px;
+    width: 135px;
 }
 
 .text-bus2 {
-    padding-left: 2px;
-    padding-top: 2px;
+  padding-left: 1px;
+    padding-top: 0px;
+    margin-top: 2px;
 }
 
 
@@ -592,7 +627,7 @@ input[type="checkbox"]+label span {
     display: inline-block;
     width: 12px;
     height: 12px;
-    margin: -1px 7px 0 0;
+    margin: -1px 8px 0 0;
     vertical-align: middle;
     background: url(../img/check.png);
     cursor: pointer;
@@ -608,23 +643,23 @@ input[type="checkbox"]:checked+label span {
     font-family: "Lucida Sans Unicode";
     font-size: 14px;
     color: #465961;
-    margin-left: 1px;
+    margin-left: 3px;
    
     
 }
 
 .chbox {
-    margin-left: 37px;
+       margin-left: 33px;
     margin-top: 5px;
 }
 
 .disk2 {
-    margin: 10px 0 0 21px;
-    width: 139px;
+     margin: 9px 0 0 21px;
+    width: 137px;
 }
 
 .text-disk2 {
-    padding-left: 4px;
+    padding-left: 3px;
     padding-top: 1px;
 }
 
@@ -651,12 +686,13 @@ input[type="checkbox"]:checked+label span {
     margin-left: 34px;
 }
 .menu3{
-    margin-left: 6px;
+    margin-left: 298px;
+    margin-top: 0px;
 }
 .logo {
     display: block;
-    padding-top: 30px;
-    padding-bottom: 23px;
+    padding-top: 31px;
+    padding-bottom: 25px;
     margin: 0 auto;
 }
 /* ----------футер*/
@@ -670,15 +706,32 @@ input[type="checkbox"]:checked+label span {
 }
 
 .menu3 li {
+    float: left;
     list-style: none;
-    display: inline-block;
-    margin-top: 4px;
+    display: block;
+    height: 11px;
+    margin-top: 8px;
+/*    letter-spacing: 0.2px;*/
+    border: 1px solid #bec6c9;
+    line-height:8px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    padding-right: 13px;
+    padding-left: 12px;
+    margin-left: 0;
+    margin-right: 0;
+    
 }
-
+.menu3 li:last-child {
+    border-right: 0px;
+     padding-left: 12px;
+    
+}
 .menu3 a {
-    padding: 0 2px 0 2px;
+/*    padding: 0 1px 0 2px;*/
     text-decoration: none;
-    /* letter-spacing: 0.5;*/
+     letter-spacing: 0.1px;
     color: #bec6c9;
     font-family: Arial;
     font-size: 12px;
@@ -689,7 +742,10 @@ input[type="checkbox"]:checked+label span {
 }
 
 .p4 {
-    padding-top: 12px;
+   
+    clear: both;
+    
+    padding-top: 15px;
     text-align: center;
     color: #754542;
     font-family: Arial;
